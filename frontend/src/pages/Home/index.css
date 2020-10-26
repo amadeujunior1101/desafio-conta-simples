@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+}
+
+.menu-top {
+  display: none;
+  background: #fff;
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.options-menu {
+  display: grid;
+  margin: auto 10px auto 10px;
+  align-items: stretch;
+}
+
+.options-menu label {
+  margin: 5px 0 5px 0;
+  /* color: #858882; */
+  color: #fff;
+}
+
+.options-menu select {
+  height: 30px;
+}
+
+.navbar {
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar img {
+  width: 170px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.navbar span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sidebar,
+.menu-top {
+  background: rgb(69, 181, 74);
+}
+
+.sidebar {
+  padding-top: 60px;
+  flex: 0.8;
+}
+
+.content {
+  padding-top: 60px;
+  background: #d6e9c3;
+  flex: 3.2;
+  height: 100vh;
+  display: block;
+}
+
+.infos {
+  margin: 0 10px auto 10px;
+  justify-content: center;
+}
+
+.select-box {
+  margin-bottom: 5px;
+}
+
+.select-box select {
+  margin: auto auto auto 10px;
+}
+
+.container-box {
+  background: rgb(118 119 118);
+}
+
+.base-extrato {
+  width: 380px;
+  max-width: 380px;
+  background: #fff;
+  display: block;
+}
+
+.group-extrato {
+  display: grid;
+  margin: 10px;
+}
+
+.group-extrato div {
+  display: grid;
+  margin-bottom: 15px;
+}
+
+.title-extrato {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+
+.base-extrato label {
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+.container-options {
+  margin: 0 15px 0 15px;
+  padding: 10px 0 10px 0;
+}
+
+.options-menu label {
+  color: #fff;
+}
+
+.options-menu label span {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .menu-top {
+    display: flex;
+  }
+  .content {
+    padding-top: 0;
+    width: 380px;
+  }
+  .options-menu {
+    display: grid;
+    width: 380px;
+    max-width: 400px;
+    margin: 0 10px 0 10px;
+  }
+  .infos {
+    margin: 10px 20px auto 20px;
+  }
+}
